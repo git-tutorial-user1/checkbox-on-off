@@ -10,9 +10,10 @@
 </head>
 
 <body>
+    <audio src="mp3/heartbeat.mp3" id="audio"></audio>
     <label>
-        <input type="checkbox" name="">
-        <span class="check"></span>
+        <input type="checkbox">
+        <span class="check" onClick="document.getElementById('audio').play()"></span>
         <span class="light off">off</span>
         <span class="light on">on</span>
     </label>
